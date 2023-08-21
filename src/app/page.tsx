@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { generateYupSchemaCodeFromInterface } from "./generateYupSchemaCodeFromInterface";
+import { generateYupSchemaCodeFromInterface } from "../helpers/generateYupSchemaCodeFromInterface";
 
 // Generate Yup schema code
 
