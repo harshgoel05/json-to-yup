@@ -14,7 +14,7 @@ export default function Home() {
   }, [inputVal]);
 
   return (
-    <div className="flex items-center h-screen w-screen bg-blue-200 gap-2 justify-between px-28">
+    <div className="flex flex-col sm:flex-row items-center h-screen w-screen bg-blue-200 gap-4 justify-center px-6 md:px-28">
       <div className="flex flex-col gap-2 w-full">
         <label
           htmlFor="message"
